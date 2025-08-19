@@ -3,9 +3,8 @@ CREATE TABLE Countries (
     ID INT,
     Name VARCHAR(50),
     PRIMARY KEY (ID)
-    ID INT PRIMARY KEY,
-    Name VARCHAR(50)
 ) ENGINE=InnoDB;
+
 
 -- Create a table for caching GeoIP data (Columns: ID, IP Range, CountryID)
 CREATE TABLE GeoIPCache (
