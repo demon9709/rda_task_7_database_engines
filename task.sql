@@ -1,3 +1,7 @@
+CREATE DATABASE ShopDB;
+USE ShopDB;
+
+
 -- Create a table to store countries 
 CREATE TABLE Countries (
     ID INT,
